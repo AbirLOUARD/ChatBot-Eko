@@ -34,4 +34,3 @@ def bag_words(tokenized_sentence, all_words):
 sentence = ["help", "how", "are", "you"]
 words = ["hi", "hello", "I", "you", "bye", "thank", "cool"]
 bag = bag_words(sentence, words)
-
