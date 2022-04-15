@@ -17,4 +17,3 @@ class NeuralNet(nn.Module):
         out = self.l3(out)
 
         return out
-
