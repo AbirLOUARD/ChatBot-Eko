@@ -49,4 +49,3 @@ while True:
                 print(f"{botname}: {random.choice(intent['responses'])}")
     else:
         print(f"{botname}: I do not understand, please retry")
-        
