@@ -11,7 +11,6 @@ from model import NeuralNet
 with open('intents.json', 'r') as f:
     intents = json.load(f)
 
-
 all_words = []
 tags = []
 xy = []
@@ -62,10 +61,6 @@ class ChatDataset(Dataset):
 
     def __len__(self):
         return self.n_samples
-
-
-
-
 
 dataset = ChatDataset()
 train_loader = DataLoader(dataset= dataset, batch_size=batch_size, shuffle= True, num_workers=0)
